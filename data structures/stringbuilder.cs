@@ -1,9 +1,16 @@
 using System.Collections.Generic;
 
+/*
+TODO:
+1. use own implementation of array list
+2. Add Insert(position, string) method
+3. Add Remove(start_position, length) method
+*/
 namespace datastructures
 {
     public class StringBuilder
     {
+        
         private readonly List<string> _words;
         private int _size;
 
