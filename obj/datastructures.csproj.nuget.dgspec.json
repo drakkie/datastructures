@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\iAm\\Documents\\GitHub\\datastructures\\datastructures\\datastructures.csproj": {}
+    "c:\\Users\\iAm\\Documents\\GitHub\\datastructures\\datastructures\\datastructures.csproj": {}
   },
   "projects": {
-    "C:\\Users\\iAm\\Documents\\GitHub\\datastructures\\datastructures\\datastructures.csproj": {
+    "c:\\Users\\iAm\\Documents\\GitHub\\datastructures\\datastructures\\datastructures.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\iAm\\Documents\\GitHub\\datastructures\\datastructures\\datastructures.csproj",
+        "projectUniqueName": "c:\\Users\\iAm\\Documents\\GitHub\\datastructures\\datastructures\\datastructures.csproj",
         "projectName": "datastructures",
-        "projectPath": "C:\\Users\\iAm\\Documents\\GitHub\\datastructures\\datastructures\\datastructures.csproj",
+        "projectPath": "c:\\Users\\iAm\\Documents\\GitHub\\datastructures\\datastructures\\datastructures.csproj",
         "packagesPath": "C:\\Users\\iAm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\iAm\\Documents\\GitHub\\datastructures\\datastructures\\obj\\",
+        "outputPath": "c:\\Users\\iAm\\Documents\\GitHub\\datastructures\\datastructures\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

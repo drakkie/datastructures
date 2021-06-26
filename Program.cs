@@ -6,6 +6,10 @@ namespace datastructures
     {
         static void Main(string[] args)
         {
+        }
+
+        public void sb_test()
+        {
             var sb = new StringBuilder();
             sb.Append("hello");
             sb.Append("world");
