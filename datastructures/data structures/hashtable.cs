@@ -1,4 +1,4 @@
-namespace datastructures.data_structures
+namespace datastructures
 {
     public class HashTable<TKey, TValue>
     {

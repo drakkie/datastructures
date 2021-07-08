@@ -3,7 +3,7 @@ using datastructures;
 
 namespace datastructures.tests
 {
-    public class DataStructureTests
+    public class DataStructure_Tests
     {
         [Theory]
         [InlineData("some chars")]
@@ -18,6 +18,18 @@ namespace datastructures.tests
             /* assert */
             Assert.True(str == sb.ToString());
 
+        }
+
+        [Fact]
+        public void Hashtable_Test()
+        {
+            /* arrange */
+            var hashtable = new HashTable<string, string>();
+
+            /* act */
+            hashtable.Add("some key", "some val");
+
+            /* assert */
         }
     }
 }
