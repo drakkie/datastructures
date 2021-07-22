@@ -25,6 +25,7 @@ namespace datastructures
         public void Add(T thing)
         {
             _array[_added] = thing;
+            _added++;
 
             if (_added >= _array.Length)
             {

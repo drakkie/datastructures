@@ -1,5 +1,6 @@
 using Xunit;
 using datastructures;
+using System;
 
 namespace datastructures.tests
 {
@@ -42,10 +43,11 @@ namespace datastructures.tests
             list.Add("three");
 
             /* act */
-            var value = list[0];
+            var value = list[1];
 
             /* assert */
-            Assert.True(value == "one");
+            Assert.True(value == "two");
+            
         }
     }
 }
