@@ -5,6 +5,17 @@ namespace datastructures
         private T[] _array;
         private int _added;
 
+        // indexer
+        public T this[int index]
+        {
+            get => _array[index];
+            set => _array[index] = value;
+        }
+
+        public int Size {
+            get { return _array.Length; }
+        }
+
         public ArrayList()
         {
             _array = new T[1];
@@ -35,5 +46,7 @@ namespace datastructures
 
             _array = newArray;
         }
+    
+
     }
 }

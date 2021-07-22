@@ -31,5 +31,21 @@ namespace datastructures.tests
 
             /* assert */
         }
+
+        [Fact]
+        public void ArrayList_IndexerWorks()
+        {
+            /* arrange */
+            var list = new ArrayList<string>();
+            list.Add("one");
+            list.Add("two");
+            list.Add("three");
+
+            /* act */
+            var value = list[0];
+
+            /* assert */
+            Assert.True(value == "one");
+        }
     }
 }
