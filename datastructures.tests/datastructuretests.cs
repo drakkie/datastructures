@@ -1,6 +1,7 @@
 using Xunit;
 using datastructures;
 using System;
+using System.Linq;
 
 namespace datastructures.tests
 {
@@ -22,15 +23,19 @@ namespace datastructures.tests
         }
 
         [Fact]
-        public void Hashtable_Test()
+        public void Hashtable_CanAddMultiple()
         {
             /* arrange */
             var hashtable = new HashTable<string, string>();
 
             /* act */
-            hashtable.Add("some key", "some val");
+            //foreach (var i in Enumerable.Range(0, 100))
+            //{
+                hashtable.Add($"key{i}", $"value{i}");
+            //}
 
             /* assert */
+            Assert.True(hashtable.Count == 1);
         }
 
         [Fact]
@@ -48,6 +53,22 @@ namespace datastructures.tests
             /* assert */
             Assert.True(value == "two");
             
+        }
+
+        [Fact]
+        public void ArrayList_SizeWorks()
+        {
+            /* arrange */
+            var list = new ArrayList<string>();
+            list.Add("one");
+            list.Add("two");
+
+            /* act */
+            var size = list.Size;
+
+            /* assert */
+            Assert.True(size == 2);
+
         }
     }
 }

@@ -13,7 +13,7 @@ namespace datastructures
         }
 
         public int Size {
-            get { return _array.Length; }
+            get { return _added; }
         }
 
         public ArrayList()
