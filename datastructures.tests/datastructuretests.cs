@@ -29,10 +29,10 @@ namespace datastructures.tests
             var hashtable = new HashTable<string, string>();
 
             /* act */
-            //foreach (var i in Enumerable.Range(0, 100))
-            //{
+            foreach (var i in Enumerable.Range(0, 100))
+            {
                 hashtable.Add($"key{i}", $"value{i}");
-            //}
+            }
 
             /* assert */
             Assert.True(hashtable.Count == 1);

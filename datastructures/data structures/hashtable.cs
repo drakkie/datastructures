@@ -65,13 +65,11 @@ namespace datastructures
             var linked_list = _list[bucket];
             var kvp = new KeyValuePair<TKey, TValue>(key, value);
 
-            if (linked_list == null)
-            {
-                linked_list = new LinkedList<KeyValuePair<TKey, TValue>>(kvp);
-            }
-
-            var end_node = linked_list.AppendToEnd(kvp);
-            _list[bucket] = end_node;
+            linked_list = linked_list == null ?
+                 new LinkedList<KeyValuePair<TKey, TValue>>(kvp) :
+                 linked_list.AppendToEnd(kvp);
+                 
+            _list[bucket] = linked_list;
         }
     }
 
